@@ -5,8 +5,9 @@ This is a modified version of my previously made Splash application for extracti
 Being aware of what you are eating is vital in achieving a balanced diet. I hope this extremely simple app can help you easily have an insight on what you are eating. 
 
 </br></br>
-##Main Search Engine Intent
+## Main Search Engine Intent
 <img width="392" alt="screen shot 2018-06-10 at 9 14 15 pm" src="https://user-images.githubusercontent.com/26124862/41208608-66a18a32-6cf3-11e8-96fb-765168814505.png">
 </br>
 
-##Nutrition Intent
+## Nutrition Intent
+
