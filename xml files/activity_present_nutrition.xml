@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#6d84b4">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        />
+
+    <EditText
+        android:id="@+id/searchbar"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:background="#a9bfed"
+        android:hint="Enter food name"
+        android:maxLines="1"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/spinner"
+        android:layout_toEndOf="@+id/searchbar"
+        android:layout_toRightOf="@+id/searchbar"
+        android:text="enter"/>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchbar"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/scrolllayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17.5dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
