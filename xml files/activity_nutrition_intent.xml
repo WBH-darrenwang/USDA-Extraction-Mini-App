@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#6d84b4">
+
+    <TextView
+        android:id="@+id/nutrition_text_intent"
+        android:layout_width="match_parent"
+        android:layout_height="355dp"
+        android:background="#323893"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:layout_below="@+id/nutrition_text_intent"
+        android:layout_toRightOf="@+id/add_button" />
+
+</RelativeLayout>
