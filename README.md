@@ -10,5 +10,7 @@ Being aware of what you are eating is vital in achieving a balanced diet. I hope
 </br>
 
 ## Nutrition Intent
+Nutritional value for half a Big Mac (I forgot to include the portion).
+</br>
 <img width="392" alt="screen shot 2018-06-10 at 9 14 40 pm" src="https://user-images.githubusercontent.com/26124862/41208645-ae7b9ffa-6cf3-11e8-9273-66a21d9bc9b7.png">
 
