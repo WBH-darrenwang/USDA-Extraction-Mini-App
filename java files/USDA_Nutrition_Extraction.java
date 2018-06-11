@@ -17,7 +17,7 @@ import java.net.URLConnection;
  * Sets the TextView in Nutrition_Intent
  */
 public class USDA_Nutrition_Extraction extends AsyncTask<Void,Void,Void>{
-    private String text, water, calories, protein, sodium, fat, num, API_KEY="6l5HlpQdoRU0FzsijrozdHm4h0mOAa8pfzPYFlYV";
+    private String text, water, calories, protein, sodium, fat, num, API_KEY="XXXXXXX Insert your own USDA code (can register online) XXXXXXX";
     public USDA_Nutrition_Extraction(String number){
         num = number;
     }
