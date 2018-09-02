@@ -23,7 +23,7 @@ import java.util.ArrayList;
  */
 
 public class Food_List extends AsyncTask<Void, Void, Void>{
-    private String API_KEY = "6l5HlpQdoRU0FzsijrozdHm4h0mOAa8pfzPYFlYV", food, food_ground;
+    private String API_KEY = "XXXXXXXXXXX", food, food_ground;
     private static ArrayList<Food_Item_Object> food_list2;
     public static String current_food;
 
